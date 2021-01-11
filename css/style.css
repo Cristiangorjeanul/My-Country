@@ -39,27 +39,27 @@ h2 {
 @keyframes slogans {
   0%,
   100% {
-    content: "The Carpatian Garden";
+    content: "A blessed land";
     color: mediumblue;
   }
   25% {
-    content: "The Carpatian Garden";
+    content: "A blessed land";
     color: mediumblue;
   }
   33% {
-    content: "Simply surprising";
+    content: "Surprising landscapes";
     color: yellow;
   }
   57% {
-    content: "Simply surprising";
+    content: "Surprising landscapes";
     color: yellow;
   }
   65% {
-    content: "The land of choice";
+    content: "A country you will love";
     color: red;
   }
   92% {
-    content: "The land of choice";
+    content: "A country you will love";
     color: red;
   }
 }
@@ -94,11 +94,18 @@ h6 {
 }
 
 #flag img {
-  width: 35%;
-  height: 35%;
+  width: 53%;
+  height: 53%;
   border: none;
   margin: 15px auto;
   background: transparent;
+}
+
+@media (min-width: 768px) {
+  #flag img {
+    width: 35%;
+    height: 35%;
+  }
 }
 
 .col-sm-12 {
@@ -178,4 +185,14 @@ section img {
 
 .carousel-caption h3 {
   color: white !important;
+}
+
+footer img {
+  width: 85%;
+}
+
+@media (min-width: 768px) {
+  footer img {
+    width: 53%;
+  }
 }
