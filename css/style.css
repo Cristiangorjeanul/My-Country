@@ -161,15 +161,15 @@ body {
   color: white;
 }
 
-.carousel-caption h2 {
+.carousel-caption h1 {
   color: yellow !important;
-  margin-bottom: 170px;
+  margin-bottom: 210px;
 }
 
-@media (min-width: 768px) {
-  .carousel-caption h2 {
-    margin-bottom: 210px;
-    font-size: 53px;
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    display: none;
+    margin-bottom: 170px;
   }
 }
 
