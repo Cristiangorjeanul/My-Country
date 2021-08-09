@@ -244,29 +244,17 @@ h3 {
   font-weight: 900;
   margin-top: 21px;
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1.5px 1.5px 3.5px black;
   font-family: Satisfy, Lato, Times New Roman;
 }
 
-h4 {
-  color: white;
-  text-align: center;
-  text-align: justify;
-  padding-bottom: 5px;
-  text-shadow: 1.5px 1.5px 1.5px black;
-}
-
+h4,
 h5 {
   color: white;
   font-weight: 900;
   text-align: center;
-  text-shadow: 1.5px 1.5px 1.5px black;
-}
-
-h6 {
-  color: white;
-  text-align: center;
-  text-shadow: 0.5px 0.5px 0.5px black;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 1px black;
 }
 
 #flag img {
@@ -333,9 +321,9 @@ main img {
 }
 
 #logo {
-  width: 171px;
-  height: 21px;
-  background-color: black;
+  width: 164px;
+  height: 20px;
+  background-color: transparent;
   margin: auto;
   margin-top: 50px;
   padding-bottom: 15px;
@@ -345,7 +333,7 @@ main img {
   display: inline-block;
   text-align: center;
   font-size: 15px;
-  width: 21px;
+  width: 20px;
   margin-left: auto;
   margin-right: auto;
   transition: all 0.2s;
